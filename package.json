@@ -1,0 +1,41 @@
+{
+  "name": "@47deg/codetab",
+  "version": "0.0.8",
+  "description": "Tab selector web component",
+  "keywords": [
+    "Stencil",
+    "web component",
+    "tab",
+    "selector"
+  ],
+  "author": "47deg",
+  "contributors": [
+    "Juan Valencia Calvellido <juanvalencia@calvellido.es> (https://calvellido.es)"
+  ],
+  "repository": "47deg/codetab",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/codetab/codetab.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --next --prod --docs",
+    "build-es5": "stencil build --next --es5 --docs",
+    "start": "stencil build --next --dev --watch --serve",
+    "start-es5": "stencil build --next --dev --es5 --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.9.2"
+  }
+}

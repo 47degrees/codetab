@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+
+  <!-- <script type="module" src="https://unpkg.com/@47deg/codetab/dist/codetab/codetab.esm.js"></script> -->
+  <!-- <script nomodule defer src="https://unpkg.com/@47deg/codetab/dist/codetab.js"></script> -->
+
+  <script type="module" src="/build/codetab.esm.js"></script>
+  <script nomodule defer src="/build/codetab.js"></script>
+
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div>This is an external div</div>
+
+  <br/><br/>
+  <hr/><hr/>
+  <br/><br/>
+
+  <fortyseven-codetab data-languages='["Groovy", "Kotlin"]'>
+    <div class="language-swift highlighter-rouge hidden">
+      <div class="highlight">
+        <pre class="highlight"><code class="hljs yaml"><span class="kd"><span class="hljs-string">groovy func</span></span> <span class="nf"><span class="hljs-string">impureAdd</span></span><span class="p"><span class="hljs-string">(</span></span><span class="nv"><span class="hljs-string">x</span></span><span class="p"><span class="hljs-string">:</span></span> <span class="kt"><span class="hljs-string">Int</span></span><span class="p"><span class="hljs-string">,</span></span> <span class="nv"><span class="hljs-attr">y)</span></span><span class="p"><span class="hljs-attr"></code></pre>
+      </div>
+    </div>
+
+    <div class="language-kotlin highlighter-rouge hidden">
+      <div class="highlight">
+        <pre class="highlight"><code class="hljs yaml"><span class="kd"><span class="hljs-string">kotlin func</span></span> <span class="nf"><span class="hljs-string">impureAdd</span></span><span class="p"><span class="hljs-string">(</span></span><span class="nv"><span class="hljs-string">x</span></span><span class="p"><span class="hljs-string">:</span></span> <span class="kt"><span class="hljs-string">Int</span></span><span class="p"><span class="hljs-string">,</span></span> <span class="nv"><span class="hljs-attr">y)</span></span><span class="p"><span class="hljs-attr"></code></pre>
+      </div>
+    </div>
+  </fortyseven-codetab>
+
+</body>
+</html>
