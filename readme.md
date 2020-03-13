@@ -5,6 +5,11 @@
 Tab selector web component.
 
 
+## Preview
+
+![Codetab preview](preview.png "Codetab")
+
+
 ## Installation
 
 ### Load it from a CDN
